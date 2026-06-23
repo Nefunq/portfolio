@@ -493,10 +493,10 @@
     }
 
     /* scrollbar styling */
-    /* .window-body::-webkit-scrollbar {
+    .window-body::-webkit-scrollbar {
       height: 4px;
       width: 4px;
-    } */
+    }
 
     .window-body::-webkit-scrollbar-track {
       background: #1e1e1e;
@@ -660,7 +660,7 @@
       font-size: 0.65rem;
       letter-spacing: 0.15em;
       text-transform: uppercase;
-      color: var(--accent2);
+      color: var(--accent);
       margin-bottom: 0.6rem;
     }
 
@@ -1074,7 +1074,7 @@
     <p class="hero-eyebrow">Available for opportunities</p>
     <h1 class="hero-name">Mohammed<br><span class="highlight">Arshad</span></h1>
     <p class="hero-title">
-      <span id="typed-role">Data Scientist &amp; Full-Stack Developer</span><span class="cursor"></span>
+      <span id="typed-role" style="color: var(--accent2);">Data Scientist &amp; Full-Stack Developer</span><span class="cursor"></span>
     </p>
     <p class="hero-desc">
       I turn raw, messy data into decisions that matter —
@@ -1088,7 +1088,7 @@
     </div>
 
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Projects Built</span>
+      <div class="stat"><span class="stat-num" data-target="6">0</span><span class="stat-label">Projects Built</span>
       </div>
       <!-- <div class="stat"><span class="stat-num" data-target="89" data-suffix="%">0</span><span class="stat-label">Best
           Model Accuracy</span></div> -->
@@ -1148,24 +1148,24 @@
       <div class="skill-card">
         <p class="skill-category">Data Science</p>
         <div class="skill-items">
-          <span class="tag">Pandas</span>
-          <span class="tag">NumPy</span>
-          <span class="tag">Scikit-learn</span>
-          <span class="tag">Matplotlib</span>
-          <span class="tag">Seaborn</span>
-          <span class="tag">Folium</span>
-          <span class="tag">Jupyter</span>
+          <span class="tag green">Pandas</span>
+          <span class="tag green">NumPy</span>
+          <span class="tag green">Scikit-learn</span>
+          <span class="tag green">Matplotlib</span>
+          <span class="tag green">Seaborn</span>
+          <span class="tag green">Folium</span>
+          <span class="tag green">Jupyter</span>
         </div>
       </div>
       <div class="skill-card">
         <p class="skill-category">Programming</p>
         <div class="skill-items">
-          <span class="tag">Python</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">PHP</span>
-          <span class="tag">C</span>
-          <span class="tag">Java</span>
-          <span class="tag">SQL</span>
+          <span class="tag green">Python</span>
+          <span class="tag green">JavaScript</span>
+          <span class="tag green">PHP</span>
+          <span class="tag green">C</span>
+          <span class="tag green">Java</span>
+          <span class="tag green">SQL</span>
         </div>
       </div>
       <div class="skill-card">
@@ -1180,11 +1180,11 @@
       <div class="skill-card">
         <p class="skill-category">Tools &amp; Workflow</p>
         <div class="skill-items">
-          <span class="tag">Git / GitHub</span>
-          <span class="tag">VS Code</span>
-          <span class="tag">Conda</span>
-          <span class="tag">Spyder</span>
-          <span class="tag">CLI</span>
+          <span class="tag green">Git / GitHub</span>
+          <span class="tag green">VS Code</span>
+          <span class="tag green">Conda</span>
+          <span class="tag green">Spyder</span>
+          <span class="tag green">CLI</span>
         </div>
       </div>
     </div>
@@ -1290,10 +1290,29 @@
         <p class="project-desc">Full-stack expense-sharing web app with group management, equal-split billing, live net
           balances, and settlement tracking — using MySQL transactions for consistent data integrity.</p>
         <div class="project-tech">
-          <span class="tag green">PHP</span><span class="tag green">MySQL</span><span
-            class="tag green">HTML/CSS</span><span class="tag green">JS</span>
+          <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">HTML/CSS</span><span
+            class="tag">JS</span>
         </div>
         <a href="https://github.com/Nefunq/splitwise-clone" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-icon">🛡️</div>
+        <p class="project-name">VulnScan</p>
+        <p class="project-desc">
+          Ethical vulnerability scanner that combines port scanning, public-data enrichment,
+          CVE lookup, and SQL injection testing — all in one menu-driven CLI tool.
+          Built for security researchers who want answers, not five separate tabs open.
+        </p>
+        <div class="project-tech">
+          <span class="tag">Python</span>
+          <span class="tag">Nmap</span>
+          <span class="tag">Shodan API</span>
+          <span class="tag">Vulners API</span>
+          <span class="tag">SQLi Detection</span>
+        </div>
+        <a href="https://github.com/Nefunq/VulnScan" target="_blank" class="project-link">View on
+          GitHub →</a>
       </div>
 
     </div>
